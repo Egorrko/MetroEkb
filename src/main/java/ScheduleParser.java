@@ -16,7 +16,7 @@ import java.util.regex.Pattern;
 public class ScheduleParser {
     private final String mainPage = "http://metro-ektb.ru/podrobnye-grafiki-po-stanciyam/";
     private Map<String, String> stationSchedulesLinks = new HashMap<String, String>();
-
+    private schedules =
     public ScheduleParser() {
         createDictStations();
     }
